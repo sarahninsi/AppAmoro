@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		455CF56726014DBC00DE17D4 /* AmoroApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 455CF56626014DBC00DE17D4 /* AmoroApp WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		455CF56C26014DBE00DE17D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455CF56B26014DBE00DE17D4 /* Assets.xcassets */; };
+		455CF57326014DBF00DE17D4 /* AmoroApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 455CF57226014DBF00DE17D4 /* AmoroApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		455CF57826014DBF00DE17D4 /* AmoroAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CF57726014DBF00DE17D4 /* AmoroAppApp.swift */; };
+		455CF57A26014DBF00DE17D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CF57926014DBF00DE17D4 /* ContentView.swift */; };
+		455CF57C26014DBF00DE17D4 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CF57B26014DBF00DE17D4 /* NotificationController.swift */; };
+		455CF57E26014DBF00DE17D4 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CF57D26014DBF00DE17D4 /* NotificationView.swift */; };
+		455CF58026014DBF00DE17D4 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CF57F26014DBF00DE17D4 /* ComplicationController.swift */; };
+		455CF58226014DBF00DE17D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455CF58126014DBF00DE17D4 /* Assets.xcassets */; };
+		455CF58526014DBF00DE17D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455CF58426014DBF00DE17D4 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		455CF56826014DBC00DE17D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 455CF55C26014DBC00DE17D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 455CF56526014DBC00DE17D4;
+			remoteInfo = "AmoroApp WatchKit App";
+		};
+		455CF57426014DBF00DE17D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 455CF55C26014DBC00DE17D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 455CF57126014DBF00DE17D4;
+			remoteInfo = "AmoroApp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		455CF58D26014DBF00DE17D4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				455CF57326014DBF00DE17D4 /* AmoroApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455CF59126014DBF00DE17D4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				455CF56726014DBC00DE17D4 /* AmoroApp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		455CF56226014DBC00DE17D4 /* AmoroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmoroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		455CF56626014DBC00DE17D4 /* AmoroApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AmoroApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		455CF56B26014DBE00DE17D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		455CF56D26014DBE00DE17D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455CF57226014DBF00DE17D4 /* AmoroApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AmoroApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		455CF57726014DBF00DE17D4 /* AmoroAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmoroAppApp.swift; sourceTree = "<group>"; };
+		455CF57926014DBF00DE17D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		455CF57B26014DBF00DE17D4 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		455CF57D26014DBF00DE17D4 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		455CF57F26014DBF00DE17D4 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		455CF58126014DBF00DE17D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		455CF58426014DBF00DE17D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		455CF58626014DBF00DE17D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455CF58726014DBF00DE17D4 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		455CF56F26014DBF00DE17D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		455CF55B26014DBC00DE17D4 = {
+			isa = PBXGroup;
+			children = (
+				455CF56A26014DBC00DE17D4 /* AmoroApp WatchKit App */,
+				455CF57626014DBF00DE17D4 /* AmoroApp WatchKit Extension */,
+				455CF56326014DBC00DE17D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		455CF56326014DBC00DE17D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				455CF56226014DBC00DE17D4 /* AmoroApp.app */,
+				455CF56626014DBC00DE17D4 /* AmoroApp WatchKit App.app */,
+				455CF57226014DBF00DE17D4 /* AmoroApp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		455CF56A26014DBC00DE17D4 /* AmoroApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				455CF56B26014DBE00DE17D4 /* Assets.xcassets */,
+				455CF56D26014DBE00DE17D4 /* Info.plist */,
+			);
+			path = "AmoroApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		455CF57626014DBF00DE17D4 /* AmoroApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				455CF57726014DBF00DE17D4 /* AmoroAppApp.swift */,
+				455CF57926014DBF00DE17D4 /* ContentView.swift */,
+				455CF57B26014DBF00DE17D4 /* NotificationController.swift */,
+				455CF57D26014DBF00DE17D4 /* NotificationView.swift */,
+				455CF57F26014DBF00DE17D4 /* ComplicationController.swift */,
+				455CF58126014DBF00DE17D4 /* Assets.xcassets */,
+				455CF58626014DBF00DE17D4 /* Info.plist */,
+				455CF58726014DBF00DE17D4 /* PushNotificationPayload.apns */,
+				455CF58326014DBF00DE17D4 /* Preview Content */,
+			);
+			path = "AmoroApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		455CF58326014DBF00DE17D4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				455CF58426014DBF00DE17D4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		455CF56126014DBC00DE17D4 /* AmoroApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 455CF59226014DBF00DE17D4 /* Build configuration list for PBXNativeTarget "AmoroApp" */;
+			buildPhases = (
+				455CF56026014DBC00DE17D4 /* Resources */,
+				455CF59126014DBF00DE17D4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				455CF56926014DBC00DE17D4 /* PBXTargetDependency */,
+			);
+			name = AmoroApp;
+			productName = AmoroApp;
+			productReference = 455CF56226014DBC00DE17D4 /* AmoroApp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		455CF56526014DBC00DE17D4 /* AmoroApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 455CF58E26014DBF00DE17D4 /* Build configuration list for PBXNativeTarget "AmoroApp WatchKit App" */;
+			buildPhases = (
+				455CF56426014DBC00DE17D4 /* Resources */,
+				455CF58D26014DBF00DE17D4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				455CF57526014DBF00DE17D4 /* PBXTargetDependency */,
+			);
+			name = "AmoroApp WatchKit App";
+			productName = "AmoroApp WatchKit App";
+			productReference = 455CF56626014DBC00DE17D4 /* AmoroApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		455CF57126014DBF00DE17D4 /* AmoroApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 455CF58A26014DBF00DE17D4 /* Build configuration list for PBXNativeTarget "AmoroApp WatchKit Extension" */;
+			buildPhases = (
+				455CF56E26014DBF00DE17D4 /* Sources */,
+				455CF56F26014DBF00DE17D4 /* Frameworks */,
+				455CF57026014DBF00DE17D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AmoroApp WatchKit Extension";
+			productName = "AmoroApp WatchKit Extension";
+			productReference = 455CF57226014DBF00DE17D4 /* AmoroApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		455CF55C26014DBC00DE17D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					455CF56126014DBC00DE17D4 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					455CF56526014DBC00DE17D4 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					455CF57126014DBF00DE17D4 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 455CF55F26014DBC00DE17D4 /* Build configuration list for PBXProject "AmoroApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 455CF55B26014DBC00DE17D4;
+			productRefGroup = 455CF56326014DBC00DE17D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				455CF56126014DBC00DE17D4 /* AmoroApp */,
+				455CF56526014DBC00DE17D4 /* AmoroApp WatchKit App */,
+				455CF57126014DBF00DE17D4 /* AmoroApp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		455CF56026014DBC00DE17D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455CF56426014DBC00DE17D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455CF56C26014DBE00DE17D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455CF57026014DBF00DE17D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455CF58526014DBF00DE17D4 /* Preview Assets.xcassets in Resources */,
+				455CF58226014DBF00DE17D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		455CF56E26014DBF00DE17D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455CF57C26014DBF00DE17D4 /* NotificationController.swift in Sources */,
+				455CF57A26014DBF00DE17D4 /* ContentView.swift in Sources */,
+				455CF58026014DBF00DE17D4 /* ComplicationController.swift in Sources */,
+				455CF57826014DBF00DE17D4 /* AmoroAppApp.swift in Sources */,
+				455CF57E26014DBF00DE17D4 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		455CF56926014DBC00DE17D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 455CF56526014DBC00DE17D4 /* AmoroApp WatchKit App */;
+			targetProxy = 455CF56826014DBC00DE17D4 /* PBXContainerItemProxy */;
+		};
+		455CF57526014DBF00DE17D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 455CF57126014DBF00DE17D4 /* AmoroApp WatchKit Extension */;
+			targetProxy = 455CF57426014DBF00DE17D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		455CF58826014DBF00DE17D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		455CF58926014DBF00DE17D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		455CF58B26014DBF00DE17D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AmoroApp WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = NY94D77AHA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AmoroApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SarahNinsi.AmoroApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		455CF58C26014DBF00DE17D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AmoroApp WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = NY94D77AHA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AmoroApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SarahNinsi.AmoroApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		455CF58F26014DBF00DE17D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NY94D77AHA;
+				IBSC_MODULE = AmoroApp_WatchKit_Extension;
+				INFOPLIST_FILE = "AmoroApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SarahNinsi.AmoroApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		455CF59026014DBF00DE17D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NY94D77AHA;
+				IBSC_MODULE = AmoroApp_WatchKit_Extension;
+				INFOPLIST_FILE = "AmoroApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SarahNinsi.AmoroApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		455CF59326014DBF00DE17D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NY94D77AHA;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SarahNinsi.AmoroApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		455CF59426014DBF00DE17D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NY94D77AHA;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SarahNinsi.AmoroApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		455CF55F26014DBC00DE17D4 /* Build configuration list for PBXProject "AmoroApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455CF58826014DBF00DE17D4 /* Debug */,
+				455CF58926014DBF00DE17D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		455CF58A26014DBF00DE17D4 /* Build configuration list for PBXNativeTarget "AmoroApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455CF58B26014DBF00DE17D4 /* Debug */,
+				455CF58C26014DBF00DE17D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		455CF58E26014DBF00DE17D4 /* Build configuration list for PBXNativeTarget "AmoroApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455CF58F26014DBF00DE17D4 /* Debug */,
+				455CF59026014DBF00DE17D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		455CF59226014DBF00DE17D4 /* Build configuration list for PBXNativeTarget "AmoroApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455CF59326014DBF00DE17D4 /* Debug */,
+				455CF59426014DBF00DE17D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 455CF55C26014DBC00DE17D4 /* Project object */;
+}
