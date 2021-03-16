@@ -17,6 +17,37 @@
 		455CF58026014DBF00DE17D4 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CF57F26014DBF00DE17D4 /* ComplicationController.swift */; };
 		455CF58226014DBF00DE17D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455CF58126014DBF00DE17D4 /* Assets.xcassets */; };
 		455CF58526014DBF00DE17D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455CF58426014DBF00DE17D4 /* Preview Assets.xcassets */; };
+		5C88EFE12601533700045C4D /* CoupleRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88EFDD2601533700045C4D /* CoupleRoom.swift */; };
+		5C88EFE22601533700045C4D /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88EFDE2601533700045C4D /* Categories.swift */; };
+		5C88EFE32601533700045C4D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88EFDF2601533700045C4D /* Message.swift */; };
+		5C88EFE42601533700045C4D /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88EFE02601533700045C4D /* Posts.swift */; };
+		5C88EFEF2601534600045C4D /* SF-Compact-Rounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5C88EFE92601534600045C4D /* SF-Compact-Rounded-Medium.otf */; };
+		5C88EFF02601534600045C4D /* SF-Compact-Rounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5C88EFE92601534600045C4D /* SF-Compact-Rounded-Medium.otf */; };
+		5C88EFF12601534600045C4D /* SF-Compact-Rounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5C88EFE92601534600045C4D /* SF-Compact-Rounded-Medium.otf */; };
+		5C88EFF22601534600045C4D /* FontsFree-Net-SF-Compact-Rounded-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C88EFEA2601534600045C4D /* FontsFree-Net-SF-Compact-Rounded-Medium.ttf */; };
+		5C88EFF32601534600045C4D /* FontsFree-Net-SF-Compact-Rounded-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C88EFEA2601534600045C4D /* FontsFree-Net-SF-Compact-Rounded-Medium.ttf */; };
+		5C88EFF42601534600045C4D /* FontsFree-Net-SF-Compact-Rounded-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C88EFEA2601534600045C4D /* FontsFree-Net-SF-Compact-Rounded-Medium.ttf */; };
+		5C88EFF52601534600045C4D /* SF-Compact-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5C88EFEB2601534600045C4D /* SF-Compact-Rounded-Regular.otf */; };
+		5C88EFF62601534600045C4D /* SF-Compact-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5C88EFEB2601534600045C4D /* SF-Compact-Rounded-Regular.otf */; };
+		5C88EFF72601534600045C4D /* SF-Compact-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5C88EFEB2601534600045C4D /* SF-Compact-Rounded-Regular.otf */; };
+		5C88EFF82601534600045C4D /* SF-Compact-Rounded-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5C88EFEC2601534600045C4D /* SF-Compact-Rounded-Semibold.otf */; };
+		5C88EFF92601534600045C4D /* SF-Compact-Rounded-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5C88EFEC2601534600045C4D /* SF-Compact-Rounded-Semibold.otf */; };
+		5C88EFFA2601534600045C4D /* SF-Compact-Rounded-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5C88EFEC2601534600045C4D /* SF-Compact-Rounded-Semibold.otf */; };
+		5C88EFFB2601534600045C4D /* SF-Compact-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5C88EFED2601534600045C4D /* SF-Compact-Rounded-Bold.otf */; };
+		5C88EFFC2601534600045C4D /* SF-Compact-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5C88EFED2601534600045C4D /* SF-Compact-Rounded-Bold.otf */; };
+		5C88EFFD2601534600045C4D /* SF-Compact-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5C88EFED2601534600045C4D /* SF-Compact-Rounded-Bold.otf */; };
+		5C88EFFE2601534600045C4D /* SFCompactRounded.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C88EFEE2601534600045C4D /* SFCompactRounded.ttf */; };
+		5C88EFFF2601534600045C4D /* SFCompactRounded.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C88EFEE2601534600045C4D /* SFCompactRounded.ttf */; };
+		5C88F0002601534600045C4D /* SFCompactRounded.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C88EFEE2601534600045C4D /* SFCompactRounded.ttf */; };
+		5C88F00E260153B400045C4D /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F00D260153B400045C4D /* StartView.swift */; };
+		5C88F013260153CB00045C4D /* PairingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F012260153CB00045C4D /* PairingView.swift */; };
+		5C88F01A260153DA00045C4D /* rowListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F018260153DA00045C4D /* rowListView.swift */; };
+		5C88F01B260153DA00045C4D /* MessageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F019260153DA00045C4D /* MessageSelectionView.swift */; };
+		5C88F028260153EF00045C4D /* SendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F027260153EF00045C4D /* SendView.swift */; };
+		5C88F030260153F900045C4D /* CategoryFramePurple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F02D260153F900045C4D /* CategoryFramePurple.swift */; };
+		5C88F031260153F900045C4D /* MenuCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F02E260153F900045C4D /* MenuCategoryView.swift */; };
+		5C88F032260153F900045C4D /* CategoryFramePink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F02F260153F900045C4D /* CategoryFramePink.swift */; };
+		5C88F0372601540700045C4D /* ContentViewFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F0362601540700045C4D /* ContentViewFinal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +107,25 @@
 		455CF58426014DBF00DE17D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		455CF58626014DBF00DE17D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		455CF58726014DBF00DE17D4 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		5C88EFDD2601533700045C4D /* CoupleRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoupleRoom.swift; sourceTree = "<group>"; };
+		5C88EFDE2601533700045C4D /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		5C88EFDF2601533700045C4D /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		5C88EFE02601533700045C4D /* Posts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		5C88EFE92601534600045C4D /* SF-Compact-Rounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Medium.otf"; sourceTree = "<group>"; };
+		5C88EFEA2601534600045C4D /* FontsFree-Net-SF-Compact-Rounded-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FontsFree-Net-SF-Compact-Rounded-Medium.ttf"; sourceTree = "<group>"; };
+		5C88EFEB2601534600045C4D /* SF-Compact-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Regular.otf"; sourceTree = "<group>"; };
+		5C88EFEC2601534600045C4D /* SF-Compact-Rounded-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Semibold.otf"; sourceTree = "<group>"; };
+		5C88EFED2601534600045C4D /* SF-Compact-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Bold.otf"; sourceTree = "<group>"; };
+		5C88EFEE2601534600045C4D /* SFCompactRounded.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFCompactRounded.ttf; sourceTree = "<group>"; };
+		5C88F00D260153B400045C4D /* StartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		5C88F012260153CB00045C4D /* PairingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairingView.swift; sourceTree = "<group>"; };
+		5C88F018260153DA00045C4D /* rowListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rowListView.swift; sourceTree = "<group>"; };
+		5C88F019260153DA00045C4D /* MessageSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageSelectionView.swift; sourceTree = "<group>"; };
+		5C88F027260153EF00045C4D /* SendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SendView.swift; path = "../../../Amoro-app/Amoro-app WatchKit Extension/Views/SendViews/SendView.swift"; sourceTree = "<group>"; };
+		5C88F02D260153F900045C4D /* CategoryFramePurple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryFramePurple.swift; sourceTree = "<group>"; };
+		5C88F02E260153F900045C4D /* MenuCategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCategoryView.swift; sourceTree = "<group>"; };
+		5C88F02F260153F900045C4D /* CategoryFramePink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryFramePink.swift; sourceTree = "<group>"; };
+		5C88F0362601540700045C4D /* ContentViewFinal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewFinal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +175,9 @@
 				455CF57B26014DBF00DE17D4 /* NotificationController.swift */,
 				455CF57D26014DBF00DE17D4 /* NotificationView.swift */,
 				455CF57F26014DBF00DE17D4 /* ComplicationController.swift */,
+				5C88F00A2601539D00045C4D /* Views */,
+				5C88EFE82601534600045C4D /* Font */,
+				5C88EFDC2601533700045C4D /* Data */,
 				455CF58126014DBF00DE17D4 /* Assets.xcassets */,
 				455CF58626014DBF00DE17D4 /* Info.plist */,
 				455CF58726014DBF00DE17D4 /* PushNotificationPayload.apns */,
@@ -139,6 +192,62 @@
 				455CF58426014DBF00DE17D4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5C88EFDC2601533700045C4D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5C88EFDD2601533700045C4D /* CoupleRoom.swift */,
+				5C88EFDE2601533700045C4D /* Categories.swift */,
+				5C88EFDF2601533700045C4D /* Message.swift */,
+				5C88EFE02601533700045C4D /* Posts.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5C88EFE82601534600045C4D /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				5C88EFE92601534600045C4D /* SF-Compact-Rounded-Medium.otf */,
+				5C88EFEA2601534600045C4D /* FontsFree-Net-SF-Compact-Rounded-Medium.ttf */,
+				5C88EFEB2601534600045C4D /* SF-Compact-Rounded-Regular.otf */,
+				5C88EFEC2601534600045C4D /* SF-Compact-Rounded-Semibold.otf */,
+				5C88EFED2601534600045C4D /* SF-Compact-Rounded-Bold.otf */,
+				5C88EFEE2601534600045C4D /* SFCompactRounded.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		5C88F00A2601539D00045C4D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5C88F00D260153B400045C4D /* StartView.swift */,
+				5C88F012260153CB00045C4D /* PairingView.swift */,
+				5C88F027260153EF00045C4D /* SendView.swift */,
+				5C88F0362601540700045C4D /* ContentViewFinal.swift */,
+				5C88F02C260153F900045C4D /* MenuCategoryViews */,
+				5C88F017260153DA00045C4D /* MessageSelectionView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5C88F017260153DA00045C4D /* MessageSelectionView */ = {
+			isa = PBXGroup;
+			children = (
+				5C88F018260153DA00045C4D /* rowListView.swift */,
+				5C88F019260153DA00045C4D /* MessageSelectionView.swift */,
+			);
+			path = MessageSelectionView;
+			sourceTree = "<group>";
+		};
+		5C88F02C260153F900045C4D /* MenuCategoryViews */ = {
+			isa = PBXGroup;
+			children = (
+				5C88F02D260153F900045C4D /* CategoryFramePurple.swift */,
+				5C88F02E260153F900045C4D /* MenuCategoryView.swift */,
+				5C88F02F260153F900045C4D /* CategoryFramePink.swift */,
+			);
+			path = MenuCategoryViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,9 +315,11 @@
 				TargetAttributes = {
 					455CF56126014DBC00DE17D4 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					455CF56526014DBC00DE17D4 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					455CF57126014DBF00DE17D4 = {
 						CreatedOnToolsVersion = 12.4;
@@ -240,6 +351,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C88EFEF2601534600045C4D /* SF-Compact-Rounded-Medium.otf in Resources */,
+				5C88EFFB2601534600045C4D /* SF-Compact-Rounded-Bold.otf in Resources */,
+				5C88EFF82601534600045C4D /* SF-Compact-Rounded-Semibold.otf in Resources */,
+				5C88EFF52601534600045C4D /* SF-Compact-Rounded-Regular.otf in Resources */,
+				5C88EFF22601534600045C4D /* FontsFree-Net-SF-Compact-Rounded-Medium.ttf in Resources */,
+				5C88EFFE2601534600045C4D /* SFCompactRounded.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +364,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C88EFF32601534600045C4D /* FontsFree-Net-SF-Compact-Rounded-Medium.ttf in Resources */,
 				455CF56C26014DBE00DE17D4 /* Assets.xcassets in Resources */,
+				5C88EFF92601534600045C4D /* SF-Compact-Rounded-Semibold.otf in Resources */,
+				5C88EFFC2601534600045C4D /* SF-Compact-Rounded-Bold.otf in Resources */,
+				5C88EFFF2601534600045C4D /* SFCompactRounded.ttf in Resources */,
+				5C88EFF02601534600045C4D /* SF-Compact-Rounded-Medium.otf in Resources */,
+				5C88EFF62601534600045C4D /* SF-Compact-Rounded-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +378,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C88EFF12601534600045C4D /* SF-Compact-Rounded-Medium.otf in Resources */,
+				5C88F0002601534600045C4D /* SFCompactRounded.ttf in Resources */,
+				5C88EFF72601534600045C4D /* SF-Compact-Rounded-Regular.otf in Resources */,
+				5C88EFF42601534600045C4D /* FontsFree-Net-SF-Compact-Rounded-Medium.ttf in Resources */,
+				5C88EFFA2601534600045C4D /* SF-Compact-Rounded-Semibold.otf in Resources */,
 				455CF58526014DBF00DE17D4 /* Preview Assets.xcassets in Resources */,
+				5C88EFFD2601534600045C4D /* SF-Compact-Rounded-Bold.otf in Resources */,
 				455CF58226014DBF00DE17D4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,11 +396,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C88EFE12601533700045C4D /* CoupleRoom.swift in Sources */,
+				5C88F00E260153B400045C4D /* StartView.swift in Sources */,
+				5C88EFE22601533700045C4D /* Categories.swift in Sources */,
+				5C88F01A260153DA00045C4D /* rowListView.swift in Sources */,
 				455CF57C26014DBF00DE17D4 /* NotificationController.swift in Sources */,
+				5C88F013260153CB00045C4D /* PairingView.swift in Sources */,
 				455CF57A26014DBF00DE17D4 /* ContentView.swift in Sources */,
 				455CF58026014DBF00DE17D4 /* ComplicationController.swift in Sources */,
+				5C88EFE32601533700045C4D /* Message.swift in Sources */,
+				5C88F0372601540700045C4D /* ContentViewFinal.swift in Sources */,
 				455CF57826014DBF00DE17D4 /* AmoroAppApp.swift in Sources */,
+				5C88EFE42601533700045C4D /* Posts.swift in Sources */,
 				455CF57E26014DBF00DE17D4 /* NotificationView.swift in Sources */,
+				5C88F030260153F900045C4D /* CategoryFramePurple.swift in Sources */,
+				5C88F028260153EF00045C4D /* SendView.swift in Sources */,
+				5C88F01B260153DA00045C4D /* MessageSelectionView.swift in Sources */,
+				5C88F032260153F900045C4D /* CategoryFramePink.swift in Sources */,
+				5C88F031260153F900045C4D /* MenuCategoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,14 +601,22 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NY94D77AHA;
 				IBSC_MODULE = AmoroApp_WatchKit_Extension;
 				INFOPLIST_FILE = "AmoroApp WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SarahNinsi.AmoroApp.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AmoroApp WatchKit Extension/Views/AmoroApp WatchKit App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 7.2;
@@ -479,14 +629,21 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NY94D77AHA;
 				IBSC_MODULE = AmoroApp_WatchKit_Extension;
 				INFOPLIST_FILE = "AmoroApp WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SarahNinsi.AmoroApp.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AmoroApp WatchKit Extension/Views/AmoroApp WatchKit App-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 7.2;
@@ -496,12 +653,20 @@
 		455CF59326014DBF00DE17D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NY94D77AHA;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.SarahNinsi.AmoroApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AmoroApp WatchKit Extension/Views/AmoroApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -509,12 +674,19 @@
 		455CF59426014DBF00DE17D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NY94D77AHA;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.SarahNinsi.AmoroApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AmoroApp WatchKit Extension/Views/AmoroApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
