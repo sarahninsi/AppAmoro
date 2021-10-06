@@ -17,6 +17,8 @@
 		455CF58026014DBF00DE17D4 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CF57F26014DBF00DE17D4 /* ComplicationController.swift */; };
 		455CF58226014DBF00DE17D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455CF58126014DBF00DE17D4 /* Assets.xcassets */; };
 		455CF58526014DBF00DE17D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455CF58426014DBF00DE17D4 /* Preview Assets.xcassets */; };
+		5C2F7630270B8E7600C98BED /* SendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F762F270B8E7600C98BED /* SendView.swift */; };
+		5C2F7636270CE21B00C98BED /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2F7635270CE21B00C98BED /* CloudKit.framework */; };
 		5C88EFE12601533700045C4D /* CoupleRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88EFDD2601533700045C4D /* CoupleRoom.swift */; };
 		5C88EFE22601533700045C4D /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88EFDE2601533700045C4D /* Categories.swift */; };
 		5C88EFE32601533700045C4D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88EFDF2601533700045C4D /* Message.swift */; };
@@ -43,7 +45,6 @@
 		5C88F013260153CB00045C4D /* PairingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F012260153CB00045C4D /* PairingView.swift */; };
 		5C88F01A260153DA00045C4D /* rowListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F018260153DA00045C4D /* rowListView.swift */; };
 		5C88F01B260153DA00045C4D /* MessageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F019260153DA00045C4D /* MessageSelectionView.swift */; };
-		5C88F028260153EF00045C4D /* SendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F027260153EF00045C4D /* SendView.swift */; };
 		5C88F030260153F900045C4D /* CategoryFramePurple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F02D260153F900045C4D /* CategoryFramePurple.swift */; };
 		5C88F031260153F900045C4D /* MenuCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F02E260153F900045C4D /* MenuCategoryView.swift */; };
 		5C88F032260153F900045C4D /* CategoryFramePink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F02F260153F900045C4D /* CategoryFramePink.swift */; };
@@ -107,6 +108,9 @@
 		455CF58426014DBF00DE17D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		455CF58626014DBF00DE17D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		455CF58726014DBF00DE17D4 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		5C2F762F270B8E7600C98BED /* SendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendView.swift; sourceTree = "<group>"; };
+		5C2F7633270CE21200C98BED /* AmoroApp WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AmoroApp WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		5C2F7635270CE21B00C98BED /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.0.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
 		5C88EFDD2601533700045C4D /* CoupleRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoupleRoom.swift; sourceTree = "<group>"; };
 		5C88EFDE2601533700045C4D /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		5C88EFDF2601533700045C4D /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
@@ -121,7 +125,6 @@
 		5C88F012260153CB00045C4D /* PairingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairingView.swift; sourceTree = "<group>"; };
 		5C88F018260153DA00045C4D /* rowListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rowListView.swift; sourceTree = "<group>"; };
 		5C88F019260153DA00045C4D /* MessageSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageSelectionView.swift; sourceTree = "<group>"; };
-		5C88F027260153EF00045C4D /* SendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SendView.swift; path = "../../../Amoro-app/Amoro-app WatchKit Extension/Views/SendViews/SendView.swift"; sourceTree = "<group>"; };
 		5C88F02D260153F900045C4D /* CategoryFramePurple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryFramePurple.swift; sourceTree = "<group>"; };
 		5C88F02E260153F900045C4D /* MenuCategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCategoryView.swift; sourceTree = "<group>"; };
 		5C88F02F260153F900045C4D /* CategoryFramePink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryFramePink.swift; sourceTree = "<group>"; };
@@ -133,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C2F7636270CE21B00C98BED /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +149,7 @@
 				455CF56A26014DBC00DE17D4 /* AmoroApp WatchKit App */,
 				455CF57626014DBF00DE17D4 /* AmoroApp WatchKit Extension */,
 				455CF56326014DBC00DE17D4 /* Products */,
+				5C2F7634270CE21B00C98BED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,14 +175,12 @@
 		455CF57626014DBF00DE17D4 /* AmoroApp WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				455CF57726014DBF00DE17D4 /* AmoroAppApp.swift */,
-				455CF57926014DBF00DE17D4 /* ContentView.swift */,
-				455CF57B26014DBF00DE17D4 /* NotificationController.swift */,
-				455CF57D26014DBF00DE17D4 /* NotificationView.swift */,
-				455CF57F26014DBF00DE17D4 /* ComplicationController.swift */,
-				5C88F00A2601539D00045C4D /* Views */,
+				5CEC4CBA270E1CF00044DEB2 /* App */,
+				5CEC4CA6270E18E50044DEB2 /* Scenes */,
+				5C2F7633270CE21200C98BED /* AmoroApp WatchKit Extension.entitlements */,
+				5CEC4CB9270E1CB10044DEB2 /* Compliacations */,
 				5C88EFE82601534600045C4D /* Font */,
-				5C88EFDC2601533700045C4D /* Data */,
+				5C88EFDC2601533700045C4D /* Service */,
 				455CF58126014DBF00DE17D4 /* Assets.xcassets */,
 				455CF58626014DBF00DE17D4 /* Info.plist */,
 				455CF58726014DBF00DE17D4 /* PushNotificationPayload.apns */,
@@ -194,15 +197,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		5C88EFDC2601533700045C4D /* Data */ = {
+		5C2F7634270CE21B00C98BED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5C88EFDD2601533700045C4D /* CoupleRoom.swift */,
-				5C88EFDE2601533700045C4D /* Categories.swift */,
-				5C88EFDF2601533700045C4D /* Message.swift */,
-				5C88EFE02601533700045C4D /* Posts.swift */,
+				5C2F7635270CE21B00C98BED /* CloudKit.framework */,
 			);
-			path = Data;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C88EFDC2601533700045C4D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				455CF57B26014DBF00DE17D4 /* NotificationController.swift */,
+				455CF57D26014DBF00DE17D4 /* NotificationView.swift */,
+				5C88EFDD2601533700045C4D /* CoupleRoom.swift */,
+				5C88EFDF2601533700045C4D /* Message.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		5C88EFE82601534600045C4D /* Font */ = {
@@ -218,36 +229,231 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
-		5C88F00A2601539D00045C4D /* Views */ = {
+		5C88F017260153DA00045C4D /* MessageSelectior */ = {
 			isa = PBXGroup;
 			children = (
-				5C88F00D260153B400045C4D /* StartView.swift */,
-				5C88F012260153CB00045C4D /* PairingView.swift */,
-				5C88F027260153EF00045C4D /* SendView.swift */,
-				5C88F0362601540700045C4D /* ContentViewFinal.swift */,
-				5C88F02C260153F900045C4D /* MenuCategoryViews */,
-				5C88F017260153DA00045C4D /* MessageSelectionView */,
+				5CEC4CAC270E1A290044DEB2 /* ViewModel */,
+				5CEC4CAB270E1A230044DEB2 /* Model */,
+				5CEC4CAA270E1A1B0044DEB2 /* View */,
 			);
-			path = Views;
+			path = MessageSelectior;
 			sourceTree = "<group>";
 		};
-		5C88F017260153DA00045C4D /* MessageSelectionView */ = {
+		5C88F02C260153F900045C4D /* MenuCategory */ = {
 			isa = PBXGroup;
 			children = (
-				5C88F018260153DA00045C4D /* rowListView.swift */,
-				5C88F019260153DA00045C4D /* MessageSelectionView.swift */,
+				5CEC4CA9270E19C30044DEB2 /* View */,
+				5CEC4CA8270E19AD0044DEB2 /* ViewModel */,
+				5CEC4CA7270E19420044DEB2 /* Model */,
 			);
-			path = MessageSelectionView;
+			path = MenuCategory;
 			sourceTree = "<group>";
 		};
-		5C88F02C260153F900045C4D /* MenuCategoryViews */ = {
+		5CEC4CA6270E18E50044DEB2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				5CEC4CBB270E1D010044DEB2 /* CodeLogin */,
+				5CEC4CAD270E1AAE0044DEB2 /* Paired */,
+				5C88F02C260153F900045C4D /* MenuCategory */,
+				5C88F017260153DA00045C4D /* MessageSelectior */,
+				5CEC4CB5270E1C5A0044DEB2 /* AmoroSelector */,
+				5CEC4CB1270E1BC60044DEB2 /* Sended */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		5CEC4CA7270E19420044DEB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C88EFDE2601533700045C4D /* Categories.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CEC4CA8270E19AD0044DEB2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5CEC4CA9270E19C30044DEB2 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				5C88F02D260153F900045C4D /* CategoryFramePurple.swift */,
 				5C88F02E260153F900045C4D /* MenuCategoryView.swift */,
 				5C88F02F260153F900045C4D /* CategoryFramePink.swift */,
 			);
-			path = MenuCategoryViews;
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CEC4CAA270E1A1B0044DEB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C88F018260153DA00045C4D /* rowListView.swift */,
+				5C88F019260153DA00045C4D /* MessageSelectionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CEC4CAB270E1A230044DEB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C88EFE02601533700045C4D /* Posts.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CEC4CAC270E1A290044DEB2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5CEC4CAD270E1AAE0044DEB2 /* Paired */ = {
+			isa = PBXGroup;
+			children = (
+				5CEC4CB0270E1B430044DEB2 /* ViewModel */,
+				5CEC4CAF270E1B3C0044DEB2 /* Model */,
+				5CEC4CAE270E1B340044DEB2 /* View */,
+			);
+			path = Paired;
+			sourceTree = "<group>";
+		};
+		5CEC4CAE270E1B340044DEB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C88F012260153CB00045C4D /* PairingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CEC4CAF270E1B3C0044DEB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CEC4CB0270E1B430044DEB2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5CEC4CB1270E1BC60044DEB2 /* Sended */ = {
+			isa = PBXGroup;
+			children = (
+				5CEC4CB4270E1C2A0044DEB2 /* ModelView */,
+				5CEC4CB3270E1C220044DEB2 /* Model */,
+				5CEC4CB2270E1C180044DEB2 /* View */,
+			);
+			path = Sended;
+			sourceTree = "<group>";
+		};
+		5CEC4CB2270E1C180044DEB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C2F762F270B8E7600C98BED /* SendView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CEC4CB3270E1C220044DEB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CEC4CB4270E1C2A0044DEB2 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		5CEC4CB5270E1C5A0044DEB2 /* AmoroSelector */ = {
+			isa = PBXGroup;
+			children = (
+				5CEC4CB8270E1C860044DEB2 /* ModelView */,
+				5CEC4CB7270E1C6B0044DEB2 /* View */,
+				5CEC4CB6270E1C650044DEB2 /* Model */,
+			);
+			path = AmoroSelector;
+			sourceTree = "<group>";
+		};
+		5CEC4CB6270E1C650044DEB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CEC4CB7270E1C6B0044DEB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C88F0362601540700045C4D /* ContentViewFinal.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CEC4CB8270E1C860044DEB2 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		5CEC4CB9270E1CB10044DEB2 /* Compliacations */ = {
+			isa = PBXGroup;
+			children = (
+				455CF57F26014DBF00DE17D4 /* ComplicationController.swift */,
+			);
+			path = Compliacations;
+			sourceTree = "<group>";
+		};
+		5CEC4CBA270E1CF00044DEB2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				455CF57726014DBF00DE17D4 /* AmoroAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5CEC4CBB270E1D010044DEB2 /* CodeLogin */ = {
+			isa = PBXGroup;
+			children = (
+				5CEC4CBE270E1D2C0044DEB2 /* ViewModel */,
+				5CEC4CBD270E1D270044DEB2 /* View */,
+				5CEC4CBC270E1D180044DEB2 /* Model */,
+			);
+			path = CodeLogin;
+			sourceTree = "<group>";
+		};
+		5CEC4CBC270E1D180044DEB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CEC4CBD270E1D270044DEB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				455CF57926014DBF00DE17D4 /* ContentView.swift */,
+				5C88F00D260153B400045C4D /* StartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CEC4CBE270E1D2C0044DEB2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,6 +604,7 @@
 			files = (
 				5C88EFE12601533700045C4D /* CoupleRoom.swift in Sources */,
 				5C88F00E260153B400045C4D /* StartView.swift in Sources */,
+				5C2F7630270B8E7600C98BED /* SendView.swift in Sources */,
 				5C88EFE22601533700045C4D /* Categories.swift in Sources */,
 				5C88F01A260153DA00045C4D /* rowListView.swift in Sources */,
 				455CF57C26014DBF00DE17D4 /* NotificationController.swift in Sources */,
@@ -410,7 +617,6 @@
 				5C88EFE42601533700045C4D /* Posts.swift in Sources */,
 				455CF57E26014DBF00DE17D4 /* NotificationView.swift in Sources */,
 				5C88F030260153F900045C4D /* CategoryFramePurple.swift in Sources */,
-				5C88F028260153EF00045C4D /* SendView.swift in Sources */,
 				5C88F01B260153DA00045C4D /* MessageSelectionView.swift in Sources */,
 				5C88F032260153F900045C4D /* CategoryFramePink.swift in Sources */,
 				5C88F031260153F900045C4D /* MenuCategoryView.swift in Sources */,
@@ -551,9 +757,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "AmoroApp WatchKit Extension/AmoroApp WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AmoroApp WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = NY94D77AHA;
+				DEVELOPMENT_TEAM = NV6658KLR4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "AmoroApp WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -575,9 +782,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "AmoroApp WatchKit Extension/AmoroApp WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AmoroApp WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = NY94D77AHA;
+				DEVELOPMENT_TEAM = NV6658KLR4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "AmoroApp WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -603,7 +811,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NY94D77AHA;
+				DEVELOPMENT_TEAM = NV6658KLR4;
 				IBSC_MODULE = AmoroApp_WatchKit_Extension;
 				INFOPLIST_FILE = "AmoroApp WatchKit App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -631,7 +839,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NY94D77AHA;
+				DEVELOPMENT_TEAM = NV6658KLR4;
 				IBSC_MODULE = AmoroApp_WatchKit_Extension;
 				INFOPLIST_FILE = "AmoroApp WatchKit App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -656,7 +864,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NY94D77AHA;
+				DEVELOPMENT_TEAM = NV6658KLR4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -677,7 +885,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NY94D77AHA;
+				DEVELOPMENT_TEAM = NV6658KLR4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

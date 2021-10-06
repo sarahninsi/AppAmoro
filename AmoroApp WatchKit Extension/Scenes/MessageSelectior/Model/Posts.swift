@@ -12,6 +12,7 @@ class Posts: Identifiable {
     var id: Int
     var text:String
     var title:String
+    
     init(title:String? = nil, id:Int, text:String) {
         self.title = title ?? ""
         self.id = id

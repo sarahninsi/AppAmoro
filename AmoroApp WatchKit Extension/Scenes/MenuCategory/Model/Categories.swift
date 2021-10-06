@@ -19,7 +19,6 @@ class Categories {
     
 }
 
-
 extension Categories {
     static let cuteOption = Categories(image: "cuteIcon", text: "Fofas")
     static let funnyOption = Categories(image: "funnyIcon", text: "Cômicas")
