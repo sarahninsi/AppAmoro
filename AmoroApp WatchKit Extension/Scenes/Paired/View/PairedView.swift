@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PairingView: View {
+struct PairedView: View {
     var body: some View {
         GeometryReader { proxy in
             if proxy.size.width > 324/2.0 { // 40mm watch resolution in points
@@ -72,8 +72,8 @@ struct PairingView: View {
 struct PairingView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            PairingView()
-            PairingView()
+            PairedView()
+            PairedView()
                 .previewDevice("Apple Watch Series 5 - 40mm")
         }
     }

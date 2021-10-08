@@ -11,7 +11,6 @@
 		455CF56C26014DBE00DE17D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455CF56B26014DBE00DE17D4 /* Assets.xcassets */; };
 		455CF57326014DBF00DE17D4 /* AmoroApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 455CF57226014DBF00DE17D4 /* AmoroApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		455CF57826014DBF00DE17D4 /* AmoroAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CF57726014DBF00DE17D4 /* AmoroAppApp.swift */; };
-		455CF57A26014DBF00DE17D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CF57926014DBF00DE17D4 /* ContentView.swift */; };
 		455CF57C26014DBF00DE17D4 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CF57B26014DBF00DE17D4 /* NotificationController.swift */; };
 		455CF57E26014DBF00DE17D4 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CF57D26014DBF00DE17D4 /* NotificationView.swift */; };
 		455CF58026014DBF00DE17D4 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CF57F26014DBF00DE17D4 /* ComplicationController.swift */; };
@@ -41,8 +40,8 @@
 		5C88EFFE2601534600045C4D /* SFCompactRounded.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C88EFEE2601534600045C4D /* SFCompactRounded.ttf */; };
 		5C88EFFF2601534600045C4D /* SFCompactRounded.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C88EFEE2601534600045C4D /* SFCompactRounded.ttf */; };
 		5C88F0002601534600045C4D /* SFCompactRounded.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C88EFEE2601534600045C4D /* SFCompactRounded.ttf */; };
-		5C88F00E260153B400045C4D /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F00D260153B400045C4D /* StartView.swift */; };
-		5C88F013260153CB00045C4D /* PairingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F012260153CB00045C4D /* PairingView.swift */; };
+		5C88F00E260153B400045C4D /* CodeLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F00D260153B400045C4D /* CodeLoginView.swift */; };
+		5C88F013260153CB00045C4D /* PairedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F012260153CB00045C4D /* PairedView.swift */; };
 		5C88F01A260153DA00045C4D /* rowListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F018260153DA00045C4D /* rowListView.swift */; };
 		5C88F01B260153DA00045C4D /* MessageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F019260153DA00045C4D /* MessageSelectionView.swift */; };
 		5C88F030260153F900045C4D /* CategoryFramePurple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F02D260153F900045C4D /* CategoryFramePurple.swift */; };
@@ -100,7 +99,6 @@
 		455CF56D26014DBE00DE17D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		455CF57226014DBF00DE17D4 /* AmoroApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AmoroApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		455CF57726014DBF00DE17D4 /* AmoroAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmoroAppApp.swift; sourceTree = "<group>"; };
-		455CF57926014DBF00DE17D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		455CF57B26014DBF00DE17D4 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		455CF57D26014DBF00DE17D4 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		455CF57F26014DBF00DE17D4 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
@@ -121,8 +119,8 @@
 		5C88EFEC2601534600045C4D /* SF-Compact-Rounded-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Semibold.otf"; sourceTree = "<group>"; };
 		5C88EFED2601534600045C4D /* SF-Compact-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Bold.otf"; sourceTree = "<group>"; };
 		5C88EFEE2601534600045C4D /* SFCompactRounded.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFCompactRounded.ttf; sourceTree = "<group>"; };
-		5C88F00D260153B400045C4D /* StartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
-		5C88F012260153CB00045C4D /* PairingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairingView.swift; sourceTree = "<group>"; };
+		5C88F00D260153B400045C4D /* CodeLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeLoginView.swift; sourceTree = "<group>"; };
+		5C88F012260153CB00045C4D /* PairedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairedView.swift; sourceTree = "<group>"; };
 		5C88F018260153DA00045C4D /* rowListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rowListView.swift; sourceTree = "<group>"; };
 		5C88F019260153DA00045C4D /* MessageSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageSelectionView.swift; sourceTree = "<group>"; };
 		5C88F02D260153F900045C4D /* CategoryFramePurple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryFramePurple.swift; sourceTree = "<group>"; };
@@ -229,24 +227,24 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
-		5C88F017260153DA00045C4D /* MessageSelectior */ = {
+		5C88F017260153DA00045C4D /* MessageSelector */ = {
 			isa = PBXGroup;
 			children = (
 				5CEC4CAC270E1A290044DEB2 /* ViewModel */,
 				5CEC4CAB270E1A230044DEB2 /* Model */,
 				5CEC4CAA270E1A1B0044DEB2 /* View */,
 			);
-			path = MessageSelectior;
+			path = MessageSelector;
 			sourceTree = "<group>";
 		};
-		5C88F02C260153F900045C4D /* MenuCategory */ = {
+		5C88F02C260153F900045C4D /* CategoriesMenu */ = {
 			isa = PBXGroup;
 			children = (
 				5CEC4CA9270E19C30044DEB2 /* View */,
 				5CEC4CA8270E19AD0044DEB2 /* ViewModel */,
 				5CEC4CA7270E19420044DEB2 /* Model */,
 			);
-			path = MenuCategory;
+			path = CategoriesMenu;
 			sourceTree = "<group>";
 		};
 		5CEC4CA6270E18E50044DEB2 /* Scenes */ = {
@@ -254,8 +252,8 @@
 			children = (
 				5CEC4CBB270E1D010044DEB2 /* CodeLogin */,
 				5CEC4CAD270E1AAE0044DEB2 /* Paired */,
-				5C88F02C260153F900045C4D /* MenuCategory */,
-				5C88F017260153DA00045C4D /* MessageSelectior */,
+				5C88F02C260153F900045C4D /* CategoriesMenu */,
+				5C88F017260153DA00045C4D /* MessageSelector */,
 				5CEC4CB5270E1C5A0044DEB2 /* AmoroSelector */,
 				5CEC4CB1270E1BC60044DEB2 /* Sended */,
 			);
@@ -324,7 +322,7 @@
 		5CEC4CAE270E1B340044DEB2 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5C88F012260153CB00045C4D /* PairingView.swift */,
+				5C88F012260153CB00045C4D /* PairedView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -443,8 +441,7 @@
 		5CEC4CBD270E1D270044DEB2 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				455CF57926014DBF00DE17D4 /* ContentView.swift */,
-				5C88F00D260153B400045C4D /* StartView.swift */,
+				5C88F00D260153B400045C4D /* CodeLoginView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -603,13 +600,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C88EFE12601533700045C4D /* CoupleRoom.swift in Sources */,
-				5C88F00E260153B400045C4D /* StartView.swift in Sources */,
+				5C88F00E260153B400045C4D /* CodeLoginView.swift in Sources */,
 				5C2F7630270B8E7600C98BED /* SendView.swift in Sources */,
 				5C88EFE22601533700045C4D /* Categories.swift in Sources */,
 				5C88F01A260153DA00045C4D /* rowListView.swift in Sources */,
 				455CF57C26014DBF00DE17D4 /* NotificationController.swift in Sources */,
-				5C88F013260153CB00045C4D /* PairingView.swift in Sources */,
-				455CF57A26014DBF00DE17D4 /* ContentView.swift in Sources */,
+				5C88F013260153CB00045C4D /* PairedView.swift in Sources */,
 				455CF58026014DBF00DE17D4 /* ComplicationController.swift in Sources */,
 				5C88EFE32601533700045C4D /* Message.swift in Sources */,
 				5C88F0372601540700045C4D /* ContentViewFinal.swift in Sources */,
