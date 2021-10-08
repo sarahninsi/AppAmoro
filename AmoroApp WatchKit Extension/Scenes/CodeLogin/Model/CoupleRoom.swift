@@ -72,6 +72,4 @@ class CoupleRoom {
         // executar, se não der erro
         container.publicCloudDatabase.add(operation)
     }
-    
-
 }

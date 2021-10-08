@@ -9,6 +9,7 @@ import SwiftUI
 
 struct MenuCategoryView: View {
     
+    let roomNumber:Int?
     let cute = Categories.cuteOption
     let funny = Categories.funnyOption
     let beat = Categories.beatIcon
@@ -48,10 +49,4 @@ struct MenuCategoryView: View {
         
     }
     
-}
-
-struct MenuCategoryView_Previews: PreviewProvider {
-    static var previews: some View {
-        MenuCategoryView()
-    }
 }

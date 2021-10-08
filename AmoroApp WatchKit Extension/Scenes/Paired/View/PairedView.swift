@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct PairedView: View {
+    @State private var roomNumber = UserDefaults.standard.integer(forKey: "room")
     var body: some View {
         GeometryReader { proxy in
             if proxy.size.width > 324/2.0 { // 40mm watch resolution in points
@@ -25,7 +26,7 @@ struct PairedView: View {
                         Text("conectados")
                             .font(.custom("SF Compact Rounded Bold", size: 17))
                             .padding(.bottom)
-                        NavigationLink(destination: MenuCategoryView()) {
+                        NavigationLink(destination: MenuCategoryView(roomNumber: roomNumber)) {
                             Text("Fechar")
                             
                         }
@@ -50,7 +51,7 @@ struct PairedView: View {
                             .font(.custom("SF Compact Rounded Regular", size: 17))
                         Text("conectados")
                             .font(.custom("SF Compact Rounded Bold", size: 17))
-                        NavigationLink(destination: MenuCategoryView()) {
+                        NavigationLink(destination: MenuCategoryView(roomNumber: roomNumber)) {
                             Text("Fechar")
                                 .font(.custom("SF Compact Rounded Regular", size: 17))
                             
@@ -67,14 +68,4 @@ struct PairedView: View {
         .navigationBarBackButtonHidden(true)
     }
     
-}
-
-struct PairingView_Previews: PreviewProvider {
-    static var previews: some View {
-        Group {
-            PairedView()
-            PairedView()
-                .previewDevice("Apple Watch Series 5 - 40mm")
-        }
-    }
 }

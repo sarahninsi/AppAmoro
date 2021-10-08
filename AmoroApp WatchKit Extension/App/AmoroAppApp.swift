@@ -10,13 +10,19 @@ import CloudKit
 
 @main
 struct AmoroAppApp: App {
+    @State private var skipLogin = UserDefaults.standard.bool(forKey: "skipLogin")
+    @State private var roomNumber = UserDefaults.standard.integer(forKey: "room")
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {
-                CodeLoginView()
+                if skipLogin != false {
+                    MenuCategoryView(roomNumber: roomNumber)
+                } else {
+                    CodeLoginView()
+                }
+                
             }
         }
-
         WKNotificationScene(controller: NotificationController.self, category: "myCategory")
     }
 }

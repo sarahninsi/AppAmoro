@@ -208,7 +208,6 @@
 			children = (
 				455CF57B26014DBF00DE17D4 /* NotificationController.swift */,
 				455CF57D26014DBF00DE17D4 /* NotificationView.swift */,
-				5C88EFDD2601533700045C4D /* CoupleRoom.swift */,
 				5C88EFDF2601533700045C4D /* Message.swift */,
 			);
 			path = Service;
@@ -434,6 +433,7 @@
 		5CEC4CBC270E1D180044DEB2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5C88EFDD2601533700045C4D /* CoupleRoom.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";

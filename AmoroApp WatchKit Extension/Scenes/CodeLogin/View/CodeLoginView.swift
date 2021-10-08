@@ -36,7 +36,18 @@ struct CodeLoginView: View {
                         print("O valor foi convertido com sucesso: \(partnerCodeInt)")
                         for room in roomsInCloud {
                             if partnerCodeInt == room.roomNumber, room.isOccupied == 0 {
+                                let coupleRoom = CoupleRoom(roomNumber: partnerCodeInt, isOccupied: 1)
+                                coupleRoom.createRecord { (error) in
+                                    if error == nil {
+                                        print("Criação do CoupleRoom realizada com sucesso!")
+                                        self.roomsInCloud.append(coupleRoom)
+                                    } else {
+                                        print("Erro na criação do CoupleRoom!")
+                                    }
+                                }
                                 pushActive = true
+                                UserDefaults.standard.setValue(partnerCodeInt, forKey: "room")
+                                UserDefaults.standard.setValue(true, forKey: "skipLogin")
                             }
                         }
                     }
@@ -45,7 +56,6 @@ struct CodeLoginView: View {
                 NavigationLink(destination: PairedView(), isActive: self.$pushActive) {
                     Text("")
                 }
-                .textContentType(.oneTimeCode)
                 .hidden()
                 .frame(width: 0, height: 0)
                 
@@ -65,12 +75,13 @@ struct CodeLoginView: View {
             
         }
         .onAppear(perform: {
+            UserDefaults.standard.setValue(false, forKey: "skipLogin")
             if(isFirstBuild) {
                 isFirstBuild = false
                 
                 // Fazendo os downloads dos Records
                 
-                var coupleRoom = CoupleRoom(roomNumber: userCode, isOccupied: 0)
+                let coupleRoom = CoupleRoom(roomNumber: userCode, isOccupied: 0)
                 coupleRoom.readRecords { (records, error) in
                     if error != nil {
                         print("Erro nas leituras de records")
@@ -80,6 +91,16 @@ struct CodeLoginView: View {
                             for room in records! {
                                 roomsInCloud.append(CoupleRoom(roomNumber: Int(room.roomNumber), isOccupied: Int(room.isOccupied)))
                             }
+                        }
+                    }
+                }
+                
+                // Filtrando repetidos
+                for room in roomsInCloud {
+                    for index in 0...roomsInCloud.count {
+                        let roomCompared = roomsInCloud[index]
+                        if room.roomNumber == roomCompared.roomNumber, room.isOccupied != roomCompared.isOccupied {
+                            roomsInCloud.remove(at: index)
                         }
                     }
                 }
@@ -114,7 +135,6 @@ struct CodeLoginView: View {
                         print("Erro na criação do CoupleRoom!")
                     }
                 }
-
             }
         })
     }
