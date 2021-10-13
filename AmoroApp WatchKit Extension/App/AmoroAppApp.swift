@@ -7,6 +7,7 @@
 
 import SwiftUI
 import CloudKit
+import UserNotifications
 
 @main
 struct AmoroAppApp: App {
@@ -16,13 +17,19 @@ struct AmoroAppApp: App {
         WindowGroup {
             NavigationView {
                 if skipLogin != false {
-                    MenuCategoryView(roomNumber: roomNumber)
+                    //MenuCategoryView(roomNumber: roomNumber)
+                    ContentView()
                 } else {
-                    CodeLoginView()
+                    //CodeLoginView()
+                    ContentView()
                 }
                 
             }
+            
         }
+        // Request permission from user to send notification
+        
+        
         WKNotificationScene(controller: NotificationController.self, category: "myCategory")
     }
 }

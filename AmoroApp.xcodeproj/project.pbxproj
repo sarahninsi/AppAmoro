@@ -48,6 +48,7 @@
 		5C88F031260153F900045C4D /* MenuCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F02E260153F900045C4D /* MenuCategoryView.swift */; };
 		5C88F032260153F900045C4D /* CategoryFramePink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F02F260153F900045C4D /* CategoryFramePink.swift */; };
 		5C88F0372601540700045C4D /* ContentViewFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88F0362601540700045C4D /* ContentViewFinal.swift */; };
+		5CC83AFE2715F6A100CF64A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC83AFD2715F6A100CF64A2 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,10 +91,20 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5CC83B0E27161AFC00CF64A2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		455CF56226014DBC00DE17D4 /* AmoroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmoroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		455CF56226014DBC00DE17D4 /* Amoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		455CF56626014DBC00DE17D4 /* AmoroApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AmoroApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		455CF56B26014DBE00DE17D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		455CF56D26014DBE00DE17D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -127,6 +138,10 @@
 		5C88F02E260153F900045C4D /* MenuCategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCategoryView.swift; sourceTree = "<group>"; };
 		5C88F02F260153F900045C4D /* CategoryFramePink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryFramePink.swift; sourceTree = "<group>"; };
 		5C88F0362601540700045C4D /* ContentViewFinal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewFinal.swift; sourceTree = "<group>"; };
+		5CC83AFD2715F6A100CF64A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5CC83B0527161AFC00CF64A2 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		5CC83B0727161AFC00CF64A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC83B0F27161D6D00CF64A2 /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.0.sdk/System/Library/Frameworks/PushKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +161,7 @@
 			children = (
 				455CF56A26014DBC00DE17D4 /* AmoroApp WatchKit App */,
 				455CF57626014DBF00DE17D4 /* AmoroApp WatchKit Extension */,
+				5CC83B0427161AFC00CF64A2 /* AmoroApp Notification Remote */,
 				455CF56326014DBC00DE17D4 /* Products */,
 				5C2F7634270CE21B00C98BED /* Frameworks */,
 			);
@@ -154,7 +170,7 @@
 		455CF56326014DBC00DE17D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				455CF56226014DBC00DE17D4 /* AmoroApp.app */,
+				455CF56226014DBC00DE17D4 /* Amoro.app */,
 				455CF56626014DBC00DE17D4 /* AmoroApp WatchKit App.app */,
 				455CF57226014DBF00DE17D4 /* AmoroApp WatchKit Extension.appex */,
 			);
@@ -198,6 +214,7 @@
 		5C2F7634270CE21B00C98BED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5CC83B0F27161D6D00CF64A2 /* PushKit.framework */,
 				5C2F7635270CE21B00C98BED /* CloudKit.framework */,
 			);
 			name = Frameworks;
@@ -208,6 +225,7 @@
 			children = (
 				455CF57B26014DBF00DE17D4 /* NotificationController.swift */,
 				455CF57D26014DBF00DE17D4 /* NotificationView.swift */,
+				5CC83AFD2715F6A100CF64A2 /* ContentView.swift */,
 				5C88EFDF2601533700045C4D /* Message.swift */,
 			);
 			path = Service;
@@ -244,6 +262,15 @@
 				5CEC4CA7270E19420044DEB2 /* Model */,
 			);
 			path = CategoriesMenu;
+			sourceTree = "<group>";
+		};
+		5CC83B0427161AFC00CF64A2 /* AmoroApp Notification Remote */ = {
+			isa = PBXGroup;
+			children = (
+				5CC83B0527161AFC00CF64A2 /* NotificationService.swift */,
+				5CC83B0727161AFC00CF64A2 /* Info.plist */,
+			);
+			path = "AmoroApp Notification Remote";
 			sourceTree = "<group>";
 		};
 		5CEC4CA6270E18E50044DEB2 /* Scenes */ = {
@@ -470,7 +497,7 @@
 			);
 			name = AmoroApp;
 			productName = AmoroApp;
-			productReference = 455CF56226014DBC00DE17D4 /* AmoroApp.app */;
+			productReference = 455CF56226014DBC00DE17D4 /* Amoro.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
 		455CF56526014DBC00DE17D4 /* AmoroApp WatchKit App */ = {
@@ -497,6 +524,7 @@
 				455CF56E26014DBF00DE17D4 /* Sources */,
 				455CF56F26014DBF00DE17D4 /* Frameworks */,
 				455CF57026014DBF00DE17D4 /* Resources */,
+				5CC83B0E27161AFC00CF64A2 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -513,7 +541,7 @@
 		455CF55C26014DBC00DE17D4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
+				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					455CF56126014DBC00DE17D4 = {
@@ -613,6 +641,7 @@
 				5C88EFE42601533700045C4D /* Posts.swift in Sources */,
 				455CF57E26014DBF00DE17D4 /* NotificationView.swift in Sources */,
 				5C88F030260153F900045C4D /* CategoryFramePurple.swift in Sources */,
+				5CC83AFE2715F6A100CF64A2 /* ContentView.swift in Sources */,
 				5C88F01B260153DA00045C4D /* MessageSelectionView.swift in Sources */,
 				5C88F032260153F900045C4D /* CategoryFramePink.swift in Sources */,
 				5C88F031260153F900045C4D /* MenuCategoryView.swift in Sources */,
@@ -868,7 +897,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.SarahNinsi.AmoroApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Amoro;
 				SWIFT_OBJC_BRIDGING_HEADER = "AmoroApp WatchKit Extension/Views/AmoroApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -889,7 +918,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.SarahNinsi.AmoroApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Amoro;
 				SWIFT_OBJC_BRIDGING_HEADER = "AmoroApp WatchKit Extension/Views/AmoroApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};

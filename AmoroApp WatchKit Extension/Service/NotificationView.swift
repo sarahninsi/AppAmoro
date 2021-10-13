@@ -8,13 +8,20 @@
 import SwiftUI
 
 struct NotificationView: View {
+    @Environment(\.presentationMode) var presentationMode
     var body: some View {
-        Text("Hello, World!")
+        VStack{
+            
+            Text("Entre no app e veja o que é")
+                .multilineTextAlignment(.center)
+            
+        }
     }
 }
 
-struct NotificationView_Previews: PreviewProvider {
+struct SewdwdView_Previews: PreviewProvider {
     static var previews: some View {
         NotificationView()
     }
 }
+

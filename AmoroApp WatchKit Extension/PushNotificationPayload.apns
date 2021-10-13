@@ -13,6 +13,10 @@
         {
             "title": "First Button",
             "identifier": "firstButtonAction"
+        },
+        {
+            "title": "Button 2",
+            "identifier": "button2Action",
         }
     ],
     
