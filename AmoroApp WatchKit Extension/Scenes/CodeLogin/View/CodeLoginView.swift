@@ -35,8 +35,8 @@ struct CodeLoginView: View {
                         guard let partnerCodeInt = Int(partnerCode) else { return }
                         print("O valor foi convertido com sucesso: \(partnerCodeInt)")
                         for room in roomsInCloud {
-                            if partnerCodeInt == room.roomNumber, room.isOccupied == 0 {
-                                let coupleRoom = CoupleRoom(roomNumber: partnerCodeInt, isOccupied: 1)
+                            if partnerCodeInt == room.roomNumber, room.isOccupied < 2 {
+                                let coupleRoom = CoupleRoom(roomNumber: partnerCodeInt, isOccupied: room.isOccupied + 1)
                                 coupleRoom.createRecord { (error) in
                                     if error == nil {
                                         print("Criação do CoupleRoom realizada com sucesso!")

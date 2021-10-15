@@ -17,11 +17,9 @@ struct AmoroAppApp: App {
         WindowGroup {
             NavigationView {
                 if skipLogin != false {
-                    //MenuCategoryView(roomNumber: roomNumber)
-                    ContentView()
+                    MenuCategoryView(roomNumber: roomNumber)
                 } else {
-                    //CodeLoginView()
-                    ContentView()
+                    CodeLoginView()
                 }
                 
             }
